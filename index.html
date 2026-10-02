@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LayerLoops — playful 3D printed objects, made layer by layer.">
+  <title>LayerLoops — Made Layer by Layer</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="loader" id="loader"><div class="loader__track"><span></span></div><p>LOADING LAYERS <b>∞</b></p></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="LayerLoops home"><span class="brand-mark">∞</span><span>LayerLoops</span></a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="products.html">Products</a>
+      <a href="custom.html">Custom</a>
+      <a href="about.html">About</a>
+      <a class="inquiry-link" href="inquiry.html">My Inquiry <span id="inquiryCount">0</span></a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">3D PRINTED • PLAYFUL • YOURS</p>
+        <h1>Ideas made<br><em>layer by layer.</em></h1>
+        <p class="hero-text">Little objects, fun gifts and useful things — made to turn ideas into something you can hold.</p>
+        <div class="hero-actions">
+          <a class="btn btn--primary magnetic" href="products.html">Explore products ↗</a>
+          <a class="btn btn--ghost magnetic" href="custom.html">Make it custom</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="loop loop--one">∞</div>
+        <div class="loop loop--two">◌</div>
+        <div class="sticker">PRINT<br>PLAY<br>REPEAT</div>
+        <span class="hero-dot dot-a"></span><span class="hero-dot dot-b"></span>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true"><div>MADE TO ORDER ✦ MADE WITH LAYERS ✦ MADE FOR YOU ✦ 3D PRINTED ✦ </div><div>MADE TO ORDER ✦ MADE WITH LAYERS ✦ MADE FOR YOU ✦ 3D PRINTED ✦ </div></div>
+
+    <section class="intro section">
+      <div class="section-label">01 / THE IDEA</div>
+      <div class="intro-grid">
+        <h2>Not just prints.<br><span>Small things with personality.</span></h2>
+        <p>LayerLoops brings together playful collectibles, desk pieces, decor and useful objects. Pick something you like, add it to your inquiry, and we'll take care of the rest.</p>
+      </div>
+    </section>
+
+    <section class="featured section">
+      <div class="section-head">
+        <div><div class="section-label">02 / PICK A LOOP</div><h2>Featured things</h2></div>
+        <a class="text-link" href="products.html">See all products ↗</a>
+      </div>
+      <div class="product-preview" id="featuredProducts"></div>
+    </section>
+
+    <section class="custom-panel section">
+      <div class="custom-copy">
+        <div class="section-label">03 / YOUR IDEA</div>
+        <h2>Got something<br><em>different</em> in mind?</h2>
+        <p>Send us your idea, image or 3D file. We'll check what's possible and get back to you.</p>
+        <a class="btn btn--dark magnetic" href="custom.html">Start a custom request ↗</a>
+      </div>
+      <div class="custom-shape">CUSTOM<br>≋<br>MADE</div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="brand"><span class="brand-mark">∞</span><span>LayerLoops</span></div><p>Ideas made layer by layer.</p><div class="footer-links"><a href="products.html">Products</a><a href="custom.html">Custom</a><a href="contact.html">Contact</a></div></footer>
+
+  <script src="js/products-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
