@@ -11,7 +11,14 @@
   <div class="loader" id="loader"><div class="loader__track"><span></span></div><p>LOADING LAYERS <b>∞</b></p></div>
 
   <header class="site-header">
-    <a class="brand" href="index.html" aria-label="LayerLoops home"><span class="brand-mark">∞</span><span>LayerLoops</span></a>
+    <a class="brand" href="index.html" aria-label="LayerLoops home">
+    <img
+        src="./assets/logo/Logo-removebg-preview.png"
+        alt="LayerLoops"
+        class="brand-logo"
+    >
+    <span>LayerLoops</span>
+</a>
     <nav class="nav" aria-label="Main navigation">
       <a href="products.html">Products</a>
       <a href="custom.html">Custom</a>
@@ -69,9 +76,75 @@
     </section>
   </main>
 
-  <footer class="footer"><div class="brand"><span class="brand-mark">∞</span><span>LayerLoops</span></div><p>Ideas made layer by layer.</p><div class="footer-links"><a href="products.html">Products</a><a href="custom.html">Custom</a><a href="contact.html">Contact</a></div></footer>
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Brand -->
+        <div class="footer-column footer-brand">
+            <img src="assets/logo/layerloops-wordmark.png"
+                 alt="LayerLoops"
+                 class="footer-logo">
+
+            <p class="footer-text">
+                Ideas made layer by layer.
+                <br>
+                Premium 3D printed products and custom creations.
+            </p>
+
+            <a href="custom.html" class="footer-btn">
+                Start Custom Project ↗
+            </a>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-column">
+            <h4>Quick Links</h4>
+
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="custom.html">Custom Printing</a>
+            <a href="inquiry.html">My Inquiry</a>
+        </div>
+
+        <!-- Services -->
+        <div class="footer-column">
+            <h4>Services</h4>
+
+            <p>3D Printing</p>
+            <p>Custom Models</p>
+            <p>Prototype Printing</p>
+            <p>Decor & Gifts</p>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-column">
+            <h4>Contact Us</h4>
+
+            <a href="mailto:akash.gupta751992@gmail.com">
+                📧 akash.gupta751992@gmail.com
+            </a>
+
+            <a href="https://www.instagram.com/layerloops/"
+               target="_blank">
+                📷 @layerloops
+            </a>
+
+            <p>📞 Contact after inquiry submission</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 LayerLoops. All rights reserved.</p>
+    </div>
+
+</footer>
 
   <script src="js/products-data.js"></script>
   <script src="js/main.js"></script>
+<a class="floating-inquiry" id="floatingInquiry" href="inquiry.html" aria-label="View your inquiry">
+  <span>View Inquiry</span> <b id="floatingInquiryCount">0</b>
+</a>
 </body>
 </html>

@@ -1,6 +1,13 @@
 <!doctype html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Custom Printing — LayerLoops</title><link rel="stylesheet" href="css/style.css"></head>
-<body><header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">∞</span><span>LayerLoops</span></a><nav class="nav"><a href="products.html">Products</a><a class="active" href="custom.html">Custom</a><a href="about.html">About</a><a class="inquiry-link" href="inquiry.html">My Inquiry <span id="inquiryCount">0</span></a></nav><button class="menu-btn" id="menuBtn">☰</button></header>
+<body><header class="site-header"><a class="brand" href="index.html" aria-label="LayerLoops home">
+    <img
+        src="assets/logo/Logo-removebg-preview.png"
+        alt="LayerLoops"
+        class="brand-logo"
+    >
+    <span>LayerLoops</span>
+</a><nav class="nav"><a href="products.html">Products</a><a class="active" href="custom.html">Custom</a><a href="about.html">About</a><a class="inquiry-link" href="inquiry.html">My Inquiry <span id="inquiryCount">0</span></a></nav><button class="menu-btn" id="menuBtn">☰</button></header>
 <main><section class="page-hero"><p class="eyebrow">CUSTOM PRINTING</p><h1>You imagine it.<br><em>We layer it.</em></h1><p>Tell us what you'd like to print. We'll review your idea and contact you to discuss the details.</p></section>
 <section class="custom-form-section section"><div class="custom-note"><span>01</span><h2>Tell us what you're thinking.</h2><p>A quick description is enough. We'll contact you for any reference image or 3D file we need.</p></div>
 <form class="form-card" id="customForm">
@@ -12,4 +19,7 @@
 <p class="form-note" id="formStatus" aria-live="polite"></p>
 </form></section></main>
 <footer class="footer"><div class="brand"><span class="brand-mark">∞</span><span>LayerLoops</span></div></footer>
-<script src="js/main.js"></script><script src="js/forms.js"></script></body></html>
+<script src="js/main.js"></script><script src="js/forms.js"></script><a class="floating-inquiry" id="floatingInquiry" href="inquiry.html" aria-label="View your inquiry">
+  <span>View Inquiry</span> <b id="floatingInquiryCount">0</b>
+</a>
+</body></html>

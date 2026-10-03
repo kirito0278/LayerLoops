@@ -32,5 +32,11 @@ function setupMagnetic(){
   });
 }
 function getInquiry(){ try{return JSON.parse(localStorage.getItem("layerloopsInquiry")||"[]")}catch{return[]}}
-function updateInquiryCount(){ $$("#inquiryCount").forEach(el=>el.textContent=getInquiry().length) }
+function updateInquiryCount(){
+  const count=getInquiry().length;
+  $$("#inquiryCount").forEach(el=>el.textContent=count);
+  $$("#floatingInquiryCount").forEach(el=>el.textContent=count);
+  $$("#heroInquiryCount").forEach(el=>el.textContent=count);
+  $$("#floatingInquiry").forEach(el=>el.classList.toggle("is-visible",count>0));
+}
 window.LayerLoops={getInquiry,updateInquiryCount};
